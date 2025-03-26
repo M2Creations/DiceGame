@@ -22,7 +22,7 @@ image2.setAttribute("src", randomImageSource);
 if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").innerHTML = "🚩 Lydia Wins!";
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML = " DaddyWins! 🚩";
+    document.querySelector("h1").innerHTML = " Maggie Wins! 🚩";
 } else {
     document.querySelector("h1").innerHTML = "🚩 Draw!";
 }
